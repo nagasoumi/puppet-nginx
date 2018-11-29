@@ -26,17 +26,18 @@ File { backup => false }
 # specified in the console for that node.
 
 node default {
-  # This is where you can declare classes for all nodes.
+  hiera_include('classes')
+# This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
 }
 
-node 'chandrasro2.mylabserver.com' {
+node 'chandrasro3.mylabserver.com' {
  notify { 'text-message-for chandrasro2':
- message => 'this is chandrasro2 using node def',
+ message => 'this is chandrasro3 using node def',
 }
 }
-node 'chandrasro2' 
+node 'chandrasro3' 
 {
- notify {'This matches chandrasro2'}
+ notify {'This matches chandrasro3'}
 }
