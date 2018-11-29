@@ -35,7 +35,8 @@ node 'chandrasro2.mylabserver.com' {
  notify { 'text-message-for chandrasro2':
  message => 'this is chandrasro2 using node def',
 }
+}
 node 'chandrasro2' 
 {
- notify {'This matches chandrasro2'
+ notify {'This matches chandrasro2'}
 }
