@@ -18,3 +18,15 @@ mod "puppetlabs/java",        '1.6.0'
 mod 'ntp',
     :git  => 'https://github.com/nagasoumi/puppet-ntp.git',
     :ref => 'master'
+
+mod 'role',
+    :git  => 'https://github.com/nagasoumi/puppet-role.git',
+    :ref => 'master'
+
+mod 'profile',
+    :git  => 'https://github.com/nagasoumi/puppet-profile.git',
+    :ref => 'master'
+
+mod 'nginx',
+    :git  => 'https://github.com/nagasoumi/puppet-nginx.git',
+    :ref => 'master'
