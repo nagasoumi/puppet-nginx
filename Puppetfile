@@ -20,11 +20,11 @@ mod 'ntp',
     :ref => 'master'
 
 mod 'role',
-    :git  => 'https://github.com/nagasoumi/puppet-role.git',
+    :git  => 'https://github.com/nagasoumi/puppet-role-1.git',
     :ref => 'master'
 
 mod 'profile',
-    :git  => 'https://github.com/nagasoumi/puppet-profile.git',
+    :git  => 'https://github.com/nagasoumi/puppet-profile-1.git',
     :ref => 'master'
 
 mod 'nginx',
