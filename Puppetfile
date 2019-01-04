@@ -6,7 +6,10 @@ mod "puppetlabs/inifile",     '1.5.0'
 mod "puppetlabs/stdlib",      '4.11.0'
 mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",        '1.6.0'
-
+mod "puppet/selinux",         '0.8.0'
+mod "garethr/docker",         '5.3.0'
+mod "puppetlabs/apt",         '2.3.0'
+mod "stahnma/epel",           '1.2.2'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -17,22 +20,23 @@ mod "puppetlabs/java",        '1.6.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
 mod 'ssh',
-   :git => 'https://github.com/nagasoumi/puppet-ssh.git',
-   :ref => 'master'
+  :git => 'https://github.com/rivethead42/puppet-ssh.git',
+  :ref => 'master'
 
 mod 'ntp',
-    :git  => 'https://github.com/nagasoumi/puppet-ntp.git',
-    :ref => 'master'
+  :git => 'https://github.com/rivethead42/puppet-ntp.git',
+  :ref => 'master'
 
 mod 'role',
-    :git  => 'git@github.com:nagasoumi/puppet-role.git',
-    :ref => 'master'
+  :git => 'https://github.com/rivethead42/puppet-role.git',
+  :ref => 'master'
 
 mod 'profile',
-    :git  => 'git@github.com:nagasoumi/puppet-profile.git',
-    :ref  => 'master'
+  :git => 'git@github.com:rivethead42/puppet-profile.git',
+  :ref => 'master'
 
 mod 'nginx',
-    :git  => 'git@github.com:nagasoumi/puppet-nginx.git',
-    :ref => 'master'
+  :git => 'git@github.com:rivethead42/puppet-nginx.git',
+  :ref => 'master'

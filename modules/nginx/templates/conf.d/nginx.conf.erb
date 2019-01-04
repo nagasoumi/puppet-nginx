@@ -1,7 +1,3 @@
-le   metadata.json  README.md  templates
-[root@chandrasro1 nginx]# cd templates/
-[root@chandrasro1 templates]# cd conf.d/
-[root@chandrasro1 conf.d]# vi nginx.conf.erb
 # File Managed by Puppet
 user <%= @process_user %>;
 worker_processes 512;
@@ -12,6 +8,7 @@ pid        <%= @pid_file %>;
 events {
   worker_connections 1024;
 }
+
 http {
   server_tokens off;
   include       <%= @config_dir %>/mime.types;

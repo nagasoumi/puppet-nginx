@@ -1,9 +1,0 @@
----
-profile::nginx::vhosts:
- - 'fqdn' : 'chandrasro2.mylabserver.com'
-   'port' : 80
-   'server_aliases' : ''
- - 'fqdn' : 'chandrasro2b.mylabserver.com'
-   'port' : 80
-   'server_aliases' : 'chandrasro2b1.mylabserver.com'
-

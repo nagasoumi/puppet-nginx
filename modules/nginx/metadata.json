@@ -1,12 +1,12 @@
 {
-  "name": "chandra-nginx",
+  "name": "tthomsen-nginx",
   "version": "0.1.0",
-  "author": "chandra",
-  "summary": null,
+  "author": "tthomsen",
+  "summary": "This module is going to manage nginx",
   "license": "Apache-2.0",
-  "source": "",
-  "project_page": null,
-  "issues_url": null,
+  "source": "git@github.com:rivethead42/puppet-nginx.git",
+  "project_page": "https://github.com/rivethead42/puppet-nginx",
+  "issues_url": "https://github.com/rivethead42/puppet-nginx/issues",
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
   ],
