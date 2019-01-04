@@ -62,8 +62,11 @@ Optional[String] $config_vdir_enable = $::nginx::params::config_vdir_enable,
 	Boolean $service_hasrestart = $::nginx::params::service_hasrestart,
 	String $docroot		    = $::nginx::params::docroot,
 )inherits ::nginx::params {
-	class { '::nginx::install': }
-  ->  class { '::nginx::config': }
-	-> class { '::nginx::service':}
+#	class { '::nginx::install': }
+#  ->  class { '::nginx::config': }
+#	-> class { '::nginx::service':}
+	include nginx::install
+        include nginx::config
+        include nginx::service
 
 }

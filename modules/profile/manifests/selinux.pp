@@ -1,3 +1,6 @@
-class profile::selinux {
-  include ::selinux
+class profile::selinux
+{
+
+	include ::selinux
+
 }
